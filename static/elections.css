@@ -1,0 +1,137 @@
+/*
+    elections.css
+    Yilong Song, Skyler Kessenich
+    November 2, 2021
+*/
+
+h1 {
+    text-align: center;
+    font-size: 200%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 150%;
+}
+
+ul.horizontal-navbar {
+    list-style-type: none;
+    margin-left: 25%;
+    margin-right:25%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+ul.horizontal-navbar li.search-by {
+    font-weight: bold;
+    padding: 14px 16px;
+    float: left;
+    text-align: center;
+    font-size: 120%;
+    width: auto;
+}
+
+ul.horizontal-navbar li.functionality {
+    float: left;
+    font-size: 120%;
+}
+
+ul.horizontal-navbar li a {
+    padding: 14px 16px;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul.horizontal-navbar li a:hover {
+    cursor: pointer;
+    background-color: #555;
+    color: white;
+}
+
+p.display-candidate {
+    font-size: 120%;
+    margin-left: 35%; 
+    margin-right: 35%;
+}
+
+p.center {
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+p.state-drop-down {
+    margin-left: 40%;
+    width: 9%;
+    float: left;
+}
+
+p.year-drop-down {
+    width: 9%;
+    float: left;
+}
+
+p.unique-drop-down {
+    margin-left: 44%;
+    width: 9%;
+    float: left;
+}
+
+p.go {
+    float:left;
+}
+
+.candidate-searchbox {
+    text-align: center;
+}
+
+.candidate-name-display {
+    margin-left: 40%;
+    margin-right: 25%;
+    font-size: 120%;
+    width: 25%;
+}
+
+a.candidate-name {
+    text-decoration: underline;
+}
+
+table.column-chart-text {
+    margin-left: 15%;
+    margin-right: 25%;
+}
+
+table.column-chart-text-center {
+    margin-left: 35%;
+}
+
+.show-all {
+    margin-left: 45%;
+    font-size: 120%;
+    text-decoration: underline;
+    text-decoration-color: blue; 
+    color: blue;
+}
+
+p.back-button {
+    text-align: center;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.pie-chart {
+    display: block;
+    margin: 0 auto;
+    width: 900px;
+    height: 400px;
+}
+
+.bold-and-underline {
+    font-weight: bold;
+    text-decoration: underline;
+}

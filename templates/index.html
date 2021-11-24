@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Senate Election Data (1976-2020)</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='elections.css') }}" />
+        <script type="text/javascript" src="{{ url_for('static', filename='elections.js') }}" ></script>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    </head>
+        
+    <body>
+        <h1>U.S. Senate Election Data (1976-2020)</h1>
+
+        <a></a>
+        <ul class="horizontal-navbar">
+            <li class="search-by">Search by:</li>
+            <li class="functionality"><a id="state">State</a></li>
+            <li class="functionality"><a id="year">Year</a></li>
+            <li class="functionality"><a id="state-year">State & Year</a></li>
+            <li class="functionality"><a id="candidate">Candidate Name</a></li>
+        </ul>
+
+        <div class="state-year-drop-down" id="state-year-drop-down"></div>
+        <div class="unique-drop-down" id="unique-drop-down"></div>
+
+        <div class="candidate-searchbox" id="candidate-searchbox"></div>
+
+        <div class="candidates">
+            <p id="candidate-election-history"></p>
+        </div>
+
+        <br><br>
+        <div class="column-chart-title" id="column-chart-title"></div>
+        <div class="pie-chart-title" id="pie-chart-title"></div>
+        <div class="column-chart" id="column-chart" align='center'></div>
+        <div class="column-chart-text" id="column-chart-text"></div>
+        <div class="pie-chart" id="pie-chart"></div>
+
+    </body>
+
+    
+    
+</html>
